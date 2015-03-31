@@ -5,12 +5,12 @@ session_start();
 ?>
 <html lang="en">
     <head>
-        <title>Clothes</title>
+        <title>Cranes Crown</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link type="text/css" rel="stylesheet" href="css/test.css">
-        <link type="text/css" rel="stylesheet" href="css/navtest.css">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <!--<link type="text/css" rel="stylesheet" href="css/navtest.css">-->
         <link rel="icon" type="image/ico" href="img/favicon.ico">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -89,7 +89,7 @@ session_start();
                                         echo "Logged in as " . $_SESSION["user"];
                                         echo "</div>";
                                         echo "<form method='POST' action='signout.php'>";
-                                        echo "<input class = 'productbuttondesign send' type='submit' name='action' value='signout'></input>";
+                                        echo "<input class = 'productbuttondesign sigout' type='submit' name='action' value='signout'></input>";
                                         echo "</form>";                                   
                                         
                                     }
@@ -206,13 +206,18 @@ session_start();
                     </div>
                     <div class="col-sm-4 footercontent">
                         <h2>Follow us</h2>
-                        <ul class="sprite">
-                            <li class="Face"><a href="https://facebook.com/"><span>F</span></a></li>
-                            <li class="Google"><a href="https://plus.google.com/"><span>G</span></a></li>
-                            <li class="Insta"><a href="https://instagram.com/"><span>I</span></a></li>
-                            <li class="Twitter"><a href="https://twitter.com/"><span>T</span></a></li>
-                            <li class="YouT"><a href="https://youtube.com/"><span>YT</span></a></li>
-                        </ul>
+                        <div id="share-buttons">
+                            <a href="http://www.facebook.com" target="_blank">
+                                <img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+                            <a href="http://twitter.com/" target="_blank">
+                                <img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+                            <a href="https://plus.google.com/" target="_blank">
+                                <img src="http://www.simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+                            <a href="http://reddit.com/" target="_blank">
+                                <img src="http://www.simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit" /></a>
+                            <a href="http://www.simplesharebuttons.com">
+                                <img src="http://www.simplesharebuttons.com/images/somacro/email.png" alt="Email" /></a> 
+                        </div>
                     </div>
 
                 </div>
