@@ -86,7 +86,7 @@ session_start();
                                         echo "Logged in as " . $_SESSION["user"];
                                         echo "</div>";
                                         echo "<form method='POST' action='signout.php'>";
-                                        echo "<input type='submit' name='action' value='signout'></input>";
+                                        echo "<input class = 'productbuttondesign send' type='submit' name='action' value='signout'></input>";
                                         echo "</form>";
                                     }
                                 } else {

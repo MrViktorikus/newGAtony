@@ -3,6 +3,9 @@
 #wrapper{
     background-color: #EEEEEE;
 }
+.container{
+    width: 1300px;
+}
 .logo h1{
     float: left;
 }
@@ -32,7 +35,7 @@
     font-size: 30px;
     list-style-type: none;
     margin-top: 45px;
-    margin-left: -20px;
+    margin-left: -30px;
 }
 .navigation2 li{
     display: inline;
@@ -91,13 +94,13 @@
 }
 .login h2{
     color: #0277BD;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-bottom: 0px;
     font-size: 40px;
 }
 .LS-droppdown{
     background-color: #424242;
-    min-width: 522px;
+    min-width: 600px;
     left: 40%;
     z-index: 9999;
 
@@ -145,7 +148,7 @@ input {
 .banner { 
     position: relative;
     overflow: auto; 
-    
+
 }
 .banner li { 
     list-style: none;
@@ -240,7 +243,7 @@ input {
 }
 .indexprodukt{
     margin-top: 20px;
-   
+
 }
 .img2{
     width: 100%;
@@ -721,21 +724,11 @@ background-color:#424242;
     -o-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    font-size: 18px;
 }
-.hej{
-        color:#0277BD;
-    border: none;
-    box-shadow:  0px 0px 2px 0px #0277BD;
-    border-radius: 0;
-    background-color: whitesmoke;
-    text-align: center;
-    padding: 0;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
+
+
+
 .productbuttondesign p {
     padding: 12px;
     font-size: 17px;

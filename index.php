@@ -89,7 +89,7 @@ session_start();
                                         echo "Logged in as " . $_SESSION["user"];
                                         echo "</div>";
                                         echo "<form method='POST' action='signout.php'>";
-                                        echo "<input type='submit' name='action' value='signout'></input>";
+                                        echo "<input class = 'productbuttondesign send' type='submit' name='action' value='signout'></input>";
                                         echo "</form>";                                   
                                         
                                     }
@@ -118,7 +118,7 @@ session_start();
                                                 <input name = 'username' type = 'text' placeholder = 'Username' required>
                                                 <h3 class = 'user'>Password:</h3>
                                                 <input name = 'password' type = 'password' placeholder = 'Password' required>
-                                                <input class = 'productbuttondesign send' type = 'submit' name = 'action' value = 'login'>
+                                                <input class = 'productbuttondesign send' type = 'submit' name = 'action' value = 'Login'>
                                             </form>
                                             ?
                                         </div>
